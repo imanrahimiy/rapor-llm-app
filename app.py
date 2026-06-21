@@ -1708,8 +1708,8 @@ with st.sidebar:
     if "ai_scenario_name" in st.session_state and "ai_scenario_vector" in st.session_state:
         scenario_options.append("AI-generated: " + st.session_state["ai_scenario_name"])
 
-    # Apply AI-generated scenario selection before rendering the Scenario widget.
-    # This prevents the UI from showing an old scenario while the AI panel claims a new scenario is active.
+    # 
+    # 
     pending_ai_option = st.session_state.pop("pending_ai_scenario_option", None)
     if pending_ai_option is not None and pending_ai_option in scenario_options:
         st.session_state["scenario_select"] = pending_ai_option
