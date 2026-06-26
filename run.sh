@@ -1,3 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-streamlit run app.py --server.headless true --server.port 8501
+set -e
+
+echo "Installing dependencies..."
+
+pip install -r requirements.txt
+
+echo "Running RAPOR-LLM reproducibility script..."
+
+python reproduce.py
+
+echo "Done."
