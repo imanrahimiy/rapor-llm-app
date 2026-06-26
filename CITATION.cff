@@ -1,0 +1,30 @@
+```yaml
+cff-version: 1.2.0
+title: "RAPOR-LLM: A Robust Adaptive Portfolio Optimization Framework with an LLM-Based Financial Copilot for Resilient ETF Portfolio Construction"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: Rahimi
+    given-names: Iman
+    affiliation: Opt-Mining, Australia
+    email: iman.rahimii1364@gmail.com
+    # orcid: https://orcid.org/XXXX-XXXX-XXXX-XXXX
+
+repository-code: "https://github.com/imanrahimiy/rapor-llm-app"
+
+url: "https://opt-mining.com.au/rapor-llm"
+
+license: MIT
+
+version: "1.0.0"
+
+date-released: 2026-06-26
+
+abstract: >
+  RAPOR-LLM is an AI-powered decision support system for resilient ETF
+  portfolio optimization under market uncertainty. The framework
+  integrates portfolio optimization, scenario stress testing,
+  benchmark comparison, resilience assessment and an LLM-based
+  Financial Copilot into a unified interactive decision support platform.
+```
